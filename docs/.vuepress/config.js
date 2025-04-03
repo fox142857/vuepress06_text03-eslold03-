@@ -3,7 +3,7 @@ import { defaultTheme } from '@vuepress/theme-default'
 import { defineUserConfig } from 'vuepress'
 
 export default defineUserConfig({
-    base : "/vuepress03_text03-eslold03-/",
+    base : "/vuepress06_text03-eslold03-/",
 
     locales: {
         '/': {
@@ -20,7 +20,7 @@ export default defineUserConfig({
 
     head: [
         // 站点图标
-        ["link", { rel: "icon", href: "/vuepress03_text03-eslold03-/ico/main-logo.svg" }],
+        ["link", { rel: "icon", href: "/vuepress06_text03-eslold03-/ico/main-logo.svg" }],
 
         // SEO
         [
@@ -67,7 +67,7 @@ export default defineUserConfig({
         logo: '/ico/main-logo.svg',
         // editLink: false,
         editLinkText: '前往下载',
-        docsRepo: 'https://github.com/fox142857/vuepress03_text03-eslold03-',
+        docsRepo: 'https://github.com/fox142857/vuepress06_text03-eslold03-',
         docsBranch: 'main',
         docsDir: 'docs',
         editLinkPattern: '/download.html',
