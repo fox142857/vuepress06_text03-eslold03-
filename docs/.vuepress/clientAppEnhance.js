@@ -5,7 +5,7 @@ export default defineClientAppEnhance(({ app, router, siteData }) => {
     // 定义常量
     const BASE_DOMAIN = 'https://fox142857.github.io/';
     const LOCAL_DOMAIN = 'http://localhost:8081/';
-    const SUB_PATH = 'vuepress05_text03-eslold03-/';
+    const SUB_PATH = 'vuepress06_text03-eslold03-/';
     
     // 创建日志函数和存储
     const logs = [];
