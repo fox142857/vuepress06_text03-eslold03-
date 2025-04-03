@@ -12,7 +12,7 @@ Please select a project to learn more:
     <h2>OBM</h2>
     <p>OutBound Management<br>ESL Information Entry System</p>
   </div>
-  <div class="feature" onclick="window.location.href='/vuepress05_text03-eslold03-/en/introduction/MDE.html'">
+  <div class="feature" onclick="window.location.href='/vuepress06_text03-eslold03-/en/introduction/MDE.html'">
     <img src="/ico/mde-logo.svg" alt="MDE Logo" class="feature-logo">
     <h2>MDE</h2>
     <p>MySQL Data Exporter<br>ESL Data Export Program</p>

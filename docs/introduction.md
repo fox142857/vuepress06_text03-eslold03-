@@ -7,12 +7,12 @@ sidebar: false
 请选择要了解的项目：
 
 <div class="features">
-  <div class="feature" onclick="window.location.href='/vuepress05_text03-eslold03-/introduction/OBM.html'">
+  <div class="feature" onclick="window.location.href='/vuepress06_text03-eslold03-/introduction/OBM.html'">
     <img src="/ico/obm-logo.svg" alt="OBM 图标" class="feature-logo">
     <h2>OBM</h2>
     <p>出库管理系统<br>ESL 信息录入</p>
   </div>
-  <div class="feature" onclick="window.location.href='/vuepress05_text03-eslold03-/introduction/MDE.html'">
+  <div class="feature" onclick="window.location.href='/vuepress06_text03-eslold03-/introduction/MDE.html'">
     <img src="/ico/mde-logo.svg" alt="MDE 图标" class="feature-logo">
     <h2>MDE</h2>
     <p>数据导出程序<br>ESL 数据导出</p>
