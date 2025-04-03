@@ -1,0 +1,42 @@
+/* 控制首页按钮样式 */
+.home .action-button {
+  display: inline-block;
+  font-size: 1.2rem;
+  padding: 0.8rem 1.6rem;
+  border-radius: 4px;
+  transition: all 0.2s ease;
+  box-sizing: border-box;
+  border-width: 2px;
+  border-style: solid;
+  border-color: transparent;
+  text-decoration: none;
+  margin: 0.5rem;
+  font-weight: 500;
+  min-width: 10rem;  /* 设置最小宽度使按钮大小一致 */
+}
+
+/* 修复首页图片变形问题 */
+.hero img {
+  max-width: 100%;
+  height: auto !important;
+  object-fit: contain !important;
+  max-height: 280px;
+}
+
+/* 修复vp-hero-image变形问题 */
+.vp-hero-image {
+  max-width: 100%;
+  height: auto !important;
+  object-fit: contain !important;
+}
+
+/* 编辑此页链接样式修改 */
+.page-edit {
+  .edit-link a {
+    font-size: 0.9rem;
+    &:before {
+      content: "Go to download";
+      margin-right: 0.25rem;
+    }
+  }
+} 

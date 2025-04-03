@@ -1,0 +1,27 @@
+{
+  "name": "vuepress-starter",
+  "version": "1.0.0",
+  "description": "A vuepress project",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "\"程序员\"",
+    "\"大学生\""
+  ],
+  "author": "gardenia",
+  "license": "ISC",
+  "devDependencies": {
+    "@vuepress/bundler-vite": "^2.0.0-rc.20",
+    "@vuepress/theme-default": "^2.0.0-rc.87",
+    "sass-embedded": "^1.86.0",
+    "vuepress": "^2.0.0-rc.20"
+  },
+  "dependencies": {
+    "vuepress-plugin-code-copy": "^1.0.6",
+    "vuepress-plugin-img-lazy": "^1.0.4"
+  }
+}

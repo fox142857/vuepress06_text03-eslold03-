@@ -1,0 +1,48 @@
+name: Deploy VuePress site to GitHub Pages
+
+on:
+  push:
+    branches: [master]
+#  workflow_dispatch:
+#    inputs:
+#      environment:
+#        description: '部署环境'
+#        required: true
+#        default: 'production'
+#        type: choice
+#        options:
+#          - staging
+#          - production
+
+# 设置权限
+permissions:
+  contents: write
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5  # 如果超过5分钟，Job会自动取消
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1  # 优化：仅拉取最新提交
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install Dependencies
+        run: npm install
+
+      - name: Build VuePress site
+        run: npm run docs:build
+
+      - name: Deploy to GitHub Pages
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: docs/.vuepress/dist
+          branch: gh-pages
+          clean: true
+          token: ${{ github.token }} # 使用默认的GITHUB_TOKEN
